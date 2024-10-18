@@ -13,7 +13,7 @@ function App() {
     event.preventDefault();
     localStorage.setItem('formdata', JSON.stringify(inputdata));
 
-    console.log(inputdata);
+    // console.log(inputdata);
   }
 
   function changeFormData(data) {

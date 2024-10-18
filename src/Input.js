@@ -34,7 +34,7 @@ export default function Input({ label, type, name, changeInputData, ...props }) 
             }  
         }
         else if(type === 'radio') {
-            console.log('radio change', event.target.value);
+            // console.log('radio change', event.target.value);
             setInputVal(event.target.value);
             changeInputData({
                 name: name,
