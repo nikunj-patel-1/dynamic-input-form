@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.input{
+  display: flex;
+  padding: 1rem;
+}
+
+.group{
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-width: 0.1rem;
+  border-color: black;
+  margin: 1rem;
+  width: max-content;
+  align-self: center;
+}
+
+.radio, .checkbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  padding-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+
+.label{
+  margin-right: 0.5rem;
+}
